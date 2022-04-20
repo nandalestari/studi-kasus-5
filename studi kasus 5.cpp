@@ -27,6 +27,17 @@ int main() {
   cout << " Jumlah sks permatkul = 2 sks" << endl;
   mahasiswa Sarah;
   Sarah.mhs(3);
-  
+  sks = 3 * 2;
+  cout << "Jumlah sks yang diambil : " << sks << endl;
+  bayar = sks * 120000;
+  cout << "Jumlah bayar sks : " << bayar << endl;
+  diskon1 = 10 / 100 * bayar;
+  bayar = bayar - diskon1;
+  cout << "Jumlah bayar setelah diskon 10% = " << bayar << endl;
+  diskon2 = 5 / 100 * bayar;
+  total = bayar - diskon2;
+  cout << "Total pembayaran keseluruhan (setelah tambah diskon 5%) = " << total
+       << endl;
+  return 0;
 }
   
